@@ -135,3 +135,66 @@ La infraestructura creada servirá como laboratorio para las siguientes práctic
 ### 9.5 Resultado esperado
 
 Al finalizar la práctica se espera contar con una red virtual funcional, con conectividad entre los dispositivos y con OSPF configurado y verificado. Esta infraestructura quedará disponible como base para continuar con el desarrollo de las prácticas de automatización de redes.
+
+# Práctica 3: Primer programa de Python para representar información de dispositivos
+
+## 1. Propósito
+
+El propósito de esta práctica es desarrollar un programa en Python que permita representar, organizar y mostrar información de dispositivos de red, como routers y switches. Se utilizaron variables, diccionarios, listas, ciclos, condiciones y funciones.
+
+## 2. Conceptos utilizados
+
+- **Variables:** almacenan información de los dispositivos, como el nombre, tipo, dirección IP e interfaz.
+- **Tipos de datos:** se utilizaron cadenas de texto (`str`) para representar la información.
+- **print():** permite mostrar la información en pantalla.
+- **Diccionarios:** agrupan los datos de cada dispositivo mediante claves y valores.
+- **Listas:** permiten almacenar varios dispositivos en una misma estructura.
+- **Ciclo for:** recorre la lista para mostrar la información de cada dispositivo.
+- **Condicional if:** identifica si un dispositivo está activo o requiere atención.
+- **Funciones:** permiten reutilizar el código para mostrar la información de los dispositivos.
+
+## 3. Dispositivos representados
+
+| Dispositivo | Tipo | Dirección IP | Estado | Función |
+|---|---|---|---|---|
+| R1 | Router | 10.1.1.1 | Activo | Enrutamiento |
+| R2 | Router | 10.1.1.2 | Activo | Enrutamiento |
+| S1 | Switch | 10.1.1.3 | Activo | Conectividad |
+
+Nota: las direcciones IP son ejemplos utilizados en el programa y deben verificarse con los datos de la topología de la Práctica 2.
+
+## 4. Evidencias
+
+Las capturas de pantalla de la práctica se organizarán en la carpeta `evidencias`:
+
+- Evidencia 1: estructura del repositorio.
+- Evidencia 2: código desarrollado.
+- Evidencia 3: ejecución correcta del programa.
+- Evidencia 4: representación de R1 y R2.
+- Evidencia 5: código con la lista de dispositivos.
+- Evidencia 6: ejecución mostrando los dispositivos.
+- Evidencia 7: repositorio actualizado en GitHub.
+
+## 5. Problemas y soluciones
+
+| Problema | Causa | Solución |
+|---|---|---|
+| Git no reconocía la identidad del autor. | No se habían configurado el nombre y el correo. | Se configuraron con `git config --global user.name` y `git config --global user.email`. |
+| Conflicto al combinar los historiales de Git. | Los dos historiales tenían versiones diferentes de `hola_mundo.py`. | Se conservó una sola instrucción `print()` y se completó la combinación. |
+
+## 6. Conclusión
+
+Durante esta práctica aprendí a utilizar variables, diccionarios, listas, ciclos, condiciones y funciones en Python. También aprendí a organizar y mostrar información de dispositivos de red mediante un programa. Una de las dificultades fue integrar los cambios del proyecto en Git, pero se resolvió configurando Git y solucionando el conflicto del archivo. Este programa permite organizar información de routers y switches de manera sencilla. En futuras prácticas, estos conocimientos podrán servir como base para consultar información directamente de los dispositivos y desarrollar herramientas de automatización de redes.
+
+
+## Práctica 3
+
+### Primer programa de Python para representar información de dispositivos
+
+**Estado:** Completada.
+
+Se desarrolló un programa en Python capaz de representar y mostrar información básica de los dispositivos de la infraestructura de red simulada.
+
+**Próximo paso:**
+
+Desarrollar programas que permitan procesar y automatizar información relacionada con la infraestructura de red.
