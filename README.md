@@ -155,11 +155,10 @@ El propósito de esta práctica es desarrollar un programa en Python que permita
 
 ## 3. Dispositivos representados
 
-| Dispositivo | Tipo | Dirección IP | Estado | Función |
-|---|---|---|---|---|
-| R1 | Router | 10.1.1.1 | Activo | Enrutamiento |
-| R2 | Router | 10.1.1.2 | Activo | Enrutamiento |
-| S1 | Switch | 10.1.1.3 | Activo | Conectividad |
+| Dispositivo | Tipo   | Dirección IP | Estado | Función      |
+| R1          | Router | 10.1.1.1     | Activo | Enrutamiento |
+| R2          | Router | 10.1.1.2     | Activo | Enrutamiento |
+| S1          | Switch | 10.1.1.3     | Activo | Conectividad |
 
 Nota: las direcciones IP son ejemplos utilizados en el programa y deben verificarse con los datos de la topología de la Práctica 2.
 
@@ -198,3 +197,32 @@ Se desarrolló un programa en Python capaz de representar y mostrar información
 **Próximo paso:**
 
 Desarrollar programas que permitan procesar y automatizar información relacionada con la infraestructura de red.
+
+---
+
+### Práctica 4. Exploración de comunidades, documentación y recursos de colaboración
+
+**Estado:** En proceso de documentación y actualización del repositorio.
+
+Se investigaron recursos de documentación técnica y comunidades de colaboración relacionados con Python, GNS3 y Git, con el propósito de encontrar información útil para el desarrollo del proyecto integrador.
+
+**Actividades realizadas:**
+
+- Consulta de documentación técnica de Python, GNS3 y Git.
+- Identificación de recursos para resolver dudas relacionadas con programación y redes.
+- Investigación de comunidades de colaboración, como Stack Overflow en español, GitHub y la comunidad de GNS3.
+- Evaluación de la confiabilidad de tres recursos técnicos.
+- Elaboración de una estrategia de investigación para un problema hipotético de búsqueda de dispositivos por nombre en `dispositivos.py`.
+- Organización de la documentación, las conclusiones y las evidencias de la práctica.
+
+**Documentación de la práctica:**
+
+Los archivos y las evidencias se organizan en `docs/practica-04/`. La carpeta contiene el README de la práctica, los recursos de Python y redes, la documentación de comunidades de colaboración y las evidencias correspondientes.
+
+Consulta el desarrollo completo en [`docs/practica-04/README.md`](docs/practica-04/README.md).
+
+**Aprendizajes:**
+
+Esta práctica permitió reconocer la importancia de consultar fuentes confiables, comprobar las soluciones antes de aplicarlas y documentar los hallazgos para facilitar el trabajo colaborativo en las siguientes etapas del proyecto.
+
+El problema de búsqueda de dispositivos se utilizó como un caso hipotético para proponer una estrategia de investigación; no implica que el programa haya sido modificado ni que se haya comprobado una solución.
